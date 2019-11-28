@@ -62,7 +62,7 @@ class CalculateViewController: UIViewController {
             let destinationVc = segue.destination as! ResultViewController
             
             //Getting the return value from the struct method
-            destinationVc.bmiValue = calculatorBrain.bmiValue()
+            destinationVc.bmiValue = calculatorBrain.getBMIValue()
         }
     }
     
