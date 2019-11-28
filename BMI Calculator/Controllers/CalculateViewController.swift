@@ -63,6 +63,8 @@ class CalculateViewController: UIViewController {
             
             //Getting the return value from the struct method
             destinationVc.bmiValue = calculatorBrain.getBMIValue()
+            destinationVc.advice = calculatorBrain.getAdvice()
+            destinationVc.color = calculatorBrain.getColor()
         }
     }
     
